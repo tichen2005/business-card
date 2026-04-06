@@ -1,49 +1,69 @@
 body {
-    margin: 20px;
-    /*
-    Challenge:
-    Find a web safe font you like, and add it 
-    to your card.
-    */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.avatar {
-    width: 150px;
-    border-radius: 10px;
-}
-
-.card {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
     text-align: center;
-    background: #780000;
-    color: #fdf0d5;
-    border-bottom: 10px solid #c1121f;
-        
-    /*
-    Challenge:
-    Find a color palette you like on Coolors.co
-    and use it in your business card.
-     */
+    font-family: 'Happy Monkey', cursive;
+    background: #bc6c25;
+    color: #ffffff;
 }
 
-.border-blue {
-    border: 1px dotted blue;
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #283618;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+#bday-age {
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #283618;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*
-Stretch goals:
-Find other ways you can personalize 
-the design of your business card, e.g.:
-- change the border(s)
-- add border radius
-- shuffle the layout
-- shadows        🤯
-- hover effects  🤯🤯
-- animations     🤯🤯🤯
+Challenge:
+1. Create a "gift-section" <div> that will wrap
+   all the elements for the first gift.
+2. Add the <h2>, <h3>, and <img> elements, and
+   give all of them their own classes.
+3. Style the elements according to the design.
+
+PS: the image should be 400px wide.
 */
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
 
